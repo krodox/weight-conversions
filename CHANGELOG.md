@@ -6,6 +6,10 @@ All notable changes to `weight-conversions` will be documented in this file.
 
 - Dummy Release to Test out the flow
 
+## 1.1.1 - 2022-05-25
+
+- Write my Own
+
 ## 1.1.0 - 2022-05-25
 
 - Add "toStones"
