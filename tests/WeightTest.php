@@ -4,6 +4,6 @@ use Krodox\WeightConversions;
 use Krodox\WeightConversions\Weight;
 
 it('can convert kilograms to pound correctly', function () {
-    Weight::kilogramsToPounds(100);
-    expect(true)->toBeTrue();
+    $pounds = Weight::kilograms(100)->toPounds();
+    expect($pounds)->toEqual(220.46);
 });
