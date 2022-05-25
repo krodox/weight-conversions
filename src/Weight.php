@@ -6,8 +6,7 @@ class Weight
 {
     protected float $kilograms;
 
-    public static function kilograms(float $kilograms): self
-    {
+    public static function kilograms(float $kilograms): self {
         return new static($kilograms);
     }
 
