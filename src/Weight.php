@@ -10,10 +10,12 @@ class Weight
     {
         return new static($kilograms);
     }
+
     public function __construct(float $kilograms)
     {
         $this->kilograms = $kilograms;
     }
+
     public function toPounds(): float
     {
         return $this->kilograms * 2.2046;
