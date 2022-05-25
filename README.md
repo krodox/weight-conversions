@@ -18,8 +18,7 @@ composer require krodox/weight-conversions
 ## Usage
 
 ```php
-$skeleton = new Krodox\WeightConversions();
-echo $skeleton->echoPhrase('Hello, Krodox!');
+ $pounds = Weight::kilograms(100)->toPounds();
 ```
 
 ## Testing
