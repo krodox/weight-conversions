@@ -1,6 +1,5 @@
 <?php
 
-use Krodox\WeightConversions;
 use Krodox\WeightConversions\Weight;
 
 it('can convert kilograms to pound correctly', function () {
