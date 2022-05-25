@@ -2,6 +2,10 @@
 
 All notable changes to `weight-conversions` will be documented in this file.
 
+## 1.1.4 - 2022-05-25
+
+- Readme file Changes
+
 ## 1.1.3 - 2022-05-25
 
 - No description in readme file
