@@ -10,6 +10,7 @@ class Weight
     {
         $this->kilograms = $kilograms;
     }
+
     public static function kilogramsToPounds(float $kilograms): self
     {
         return new static($kilograms * 2.2046);
